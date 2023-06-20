@@ -1,5 +1,5 @@
 @url = http://localhost:3610
 
-### BASE
-{{url}}
+### FILE ITEMS
+{{url}}/fileItems
 
