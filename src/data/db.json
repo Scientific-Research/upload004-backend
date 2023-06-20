@@ -1,3 +1,25 @@
 {
-	"fileItems": []
+  "fileItems": [
+    {
+      "title": "JSON file",
+      "description": "",
+      "notes": "",
+      "fileName": "JSON file.json",
+      "iconPathAndFileName": "images/general/iconJson.png"
+    },
+    {
+      "title": "image",
+      "description": "",
+      "notes": "",
+      "fileName": "pexels-alax-matias-13358849.jpg",
+      "iconPathAndFileName": "uploadedFiles/pexels-alax-matias-13358849.jpg"
+    },
+    {
+      "title": "screenshot",
+      "description": "ddd",
+      "notes": "nnn",
+      "fileName": "2018-07-07 (8).png",
+      "iconPathAndFileName": "uploadedFiles/2018-07-07 (8).png"
+    }
+  ]
 }

@@ -8,7 +8,6 @@ import { fileURLToPath } from 'url';
 // TODO: consider upgrade from 3.0 to 5.0 lowdb
 import { Low, JSONFile } from 'lowdb'; //database
 const __dirname = dirname(fileURLToPath(import.meta.url));
-console.log(__dirname);
 const dbFile = join(__dirname, '../src/data/db.json');
 const adapter = new JSONFile(dbFile);
 const db = new Low(adapter);
@@ -16,7 +15,9 @@ const db = new Low(adapter);
 const app = express();
 const port = 5889;
 
-const staticDirectory = path.join(__dirname, './public');
+const staticDirectory = path.join(__dirname, '../public');
+console.log(__dirname);
+console.log(staticDirectory);
 app.use(express.static(staticDirectory));
 
 const storage = multer.diskStorage({
