@@ -1,3 +1,18 @@
 {
-	"fileItems": []
+  "fileItems": [
+    {
+      "title": "Picture1",
+      "description": "p",
+      "notes": "p",
+      "fileName": "IMG_20230621_125417.jpg",
+      "iconPathAndFileName": "uploadedFiles/IMG_20230621_125417.jpg"
+    },
+    {
+      "title": "Scores",
+      "description": "s",
+      "notes": "s",
+      "fileName": "neu 10.xlsx",
+      "iconPathAndFileName": "images/general/iconExcel.png"
+    }
+  ]
 }
