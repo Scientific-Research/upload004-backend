@@ -13,6 +13,13 @@
       "notes": "s",
       "fileName": "neu 10.xlsx",
       "iconPathAndFileName": "images/general/iconExcel.png"
+    },
+    {
+      "title": "Text file",
+      "description": "t",
+      "notes": "t",
+      "fileName": "text file.txt",
+      "iconPathAndFileName": "images/general/iconText.png"
     }
   ]
 }
